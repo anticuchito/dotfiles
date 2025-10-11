@@ -1,0 +1,46 @@
+# Configuración de Ghostty (~/.config/ghostty/config)
+
+# Tema Tokyo Night
+theme = TokyoNight Night
+
+# Fuente
+font-family = "Hack nerd Font"
+font-size = 14
+
+# Apariencia de la ventana
+background-opacity = 0.95
+window-padding-x = 10
+window-padding-y = 10
+window-decoration = true
+
+
+# Cursor
+cursor-style = "block"
+cursor-style-blink = true
+
+# Shell y configuración de Alacritty
+# Si quieres que Ghostty use la configuración de Alacritty
+#shell-integration = true
+#shell-integration-features = cursor,sudo,title
+
+# Clipboard
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = true
+
+# Rendimiento
+window-vsync = true
+
+# Keybindings estilo Alacritty
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+w=close_surface
+
+# Colores Tokyo Night (por si el tema no está disponible)
+# background = #1a1b26
+# foreground = #c0caf5
+# cursor-color = #c0caf5
+# selection-background = #33467c
+# selection-foreground = #c0caf5

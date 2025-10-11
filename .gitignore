@@ -1,0 +1,43 @@
+# Aplicaciones
+abrt/
+chromium/
+Code/
+evolution/
+gh/
+github-copilot/
+gnome-session/
+obsidian/
+solaar/
+org.gnome.Ptyxis/
+
+# Sistema GNOME
+dconf/
+gtk-3.0/
+gtk-4.0/
+goa-1.0/
+ibus/
+pulse/
+.gsd-keyboard.settings-ported
+gnome-initial-setup-done
+user-dirs.dirs
+user-dirs.locale
+
+# Temporales y caché
+autostart/
+enchant/
+go/
+libreoffice/
+nautilus/
+
+# Backups
+*.bak
+nvim.bak/
+
+# Configuraciones de apps específicas
+pavucontrol.ini
+rygel.conf
+
+# Logs y temporales
+*.log
+*.tmp
+*.swp
