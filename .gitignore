@@ -41,3 +41,4 @@ rygel.conf
 *.log
 *.tmp
 *.swp
+Session.vim
