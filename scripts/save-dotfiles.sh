@@ -8,7 +8,7 @@ GREEN='\033[0;32m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-DOTFILES_DIR="$HOME/dotfiles"
+DOTFILES_DIR="$HOME/Repos/dotfiles"
 CONFIG_DIR="$HOME/.config"
 
 echo -e "${BLUE}Guardando cambios en dotfiles...${NC}\n"

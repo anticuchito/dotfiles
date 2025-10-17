@@ -5,7 +5,6 @@
   "modules-right": ["network", "power-profiles-daemon","pulseaudio", "battery", "custom/powermenu"],
   "clock": {
     "format": "{:%a %d %H:%M}",
-    //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "battery": {
     "states": {
@@ -24,10 +23,11 @@
   },
   "network": {
     "format-wifi": "<span size='13000' foreground='#f5e0dc'>  </span>{essid}",
-    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰈀 </span> {ipaddr}/{cidr}",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%"
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
+    "tooltip-format-ethernet": "<span size='1300' foreground='#f5e0dc'>󱚻 </span> {bandwidthUpBits} / {bandwidthDownBits}"
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
