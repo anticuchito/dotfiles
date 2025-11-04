@@ -14,6 +14,6 @@ case $option in
   systemctl reboot
   ;;
 "⏻ Poweroff")
-  systemctl poweroff
+  poweroff
   ;;
 esac
