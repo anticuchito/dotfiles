@@ -23,7 +23,7 @@ user-dirs.dirs
 user-dirs.locale
 
 #especific config for the monitors
-  */monitors.conf
+config/hypr/monitors.conf
 # Temporales y caché
 autostart/
 enchant/
